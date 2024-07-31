@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Ad Title 1",
+    "description": "This is the first ad.",
+    "cta": "Learn More",
+    "image": "https://picsum.photos/id/1/200/300",
+    "background": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/3/square.png"
+  },
+  {
+    "id": 2,
+    "title": "Ad Title 2",
+    "description": "This is the second ad.",
+    "cta": "get Now",
+    "image": "https://picsum.photos/id/2/200/300",
+    "background": "https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/1/square.png"
+  },
+  {
+    "id": 3,
+    "title": "Ad Title 3",
+    "description": "This is the Third ad.",
+    "cta": "Shop Now",
+    "image": "https://picsum.photos/id/13/200/300",
+    "background": " https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/15/square.png"
+  },
+  {
+    "id": 4,
+    "title": "Ad Title 4",
+    "description": "This is the Fourth ad.",
+    "cta": "Shop Now",
+    "image": "https://picsum.photos/id/11/200/300",
+    "background": " https://bannerbot-public.s3.ap-south-1.amazonaws.com/templates/9/square.png"
+  }
+
+]
