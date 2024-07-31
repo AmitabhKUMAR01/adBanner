@@ -4,12 +4,21 @@ import BannerImageComp from '../components/BannerImageComp';
 import EditBannerTemplateBs from '../components/EditBannerTemplateBs';
 import adBanners from '../data/BannersData.json';
 
+interface Banner {
+  id: number;
+  title: string;
+  description: string;
+  cta: string;
+  image: string;
+  background: string;
+}
+
 const Home: React.FC = () => {
-  const [banners, setBanners] = useState(adBanners);
-  const [editingBanner, setEditingBanner] = useState(null);
+  const [banners, setBanners] = useState<Banner[]>(adBanners);
+  const [editingBanner, setEditingBanner] = useState<Banner | null>(null);
 
   const handleEdit = (id: number) => {
-    const banner = banners.find((b) => b.id === id);
+    const banner = banners.find((b) => b.id === id) || null;
     setEditingBanner(banner);
   };
 
@@ -17,6 +26,7 @@ const Home: React.FC = () => {
     setBanners((prevBanners) =>
       prevBanners.map((b) => (b.id === id ? { ...b, ...updatedBanner } : b))
     );
+    setEditingBanner(null); // Close the edit modal after saving
   };
 
   const handleClose = () => {
