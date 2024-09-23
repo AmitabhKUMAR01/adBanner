@@ -1,0 +1,85 @@
+{
+    "code-runner.runInTerminal": true,
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+    "vscode-neovim.neovimInitVimPaths.win32": "C:\\nvim\\config\\init.lua",
+    "git.autofetch": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.compositeKeys": {
+        "jj": {
+            "command": "vscode-neovim.escape"
+        }
+    },
+    "window.zoomLevel": 1,
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible":true,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "window.titleBarStyle": "custom",
+
+     /* "workbench.colorCustomizations": {
+        "editorSuggestWidget.selectedBackground": "#231739",
+        "sideBar.background": "#191521",
+        "list.activeSelectionBackground": "#231739",
+        "list.inactiveSelectionBackground": "#231739",
+        "list.focusBackground": "#231739",
+        "list.hoverBackground": "#231739",
+        "terminalCursor.foreground": "#C45DFF"
+    }, */
+    "editor.minimap.enabled": true,
+    "editor.guides.indentation": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": "never",
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": false,
+    "editor.showFoldingControls": "never",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Firacode Nerd Font",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 2,
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "Firacode Nerd Font",
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.fontSize": 14,
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+      "file:///c:/Users/Amitabh Kumar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ],
+    "workbench.colorTheme": "Tokyo Night",
+  "apc.electron": {
+    "opacity": 0.98,
+    "transparent": true,
+    "backgroundColor": "#00000000",
+    "vibrancy": "ultra-dark"
+},
+  "editor.cursorBlinking": "phase",
+"editor.cursorSmoothCaretAnimation": "on",
+"animations.Enabled": true,
+"animations.CursorAnimation": true,
+"animations.Command-Palette": "None",
+"animations.CursorAnimationOptions": {
+    "TrailLength": 10
+},
+
+
+}
